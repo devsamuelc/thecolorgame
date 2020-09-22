@@ -1,0 +1,79 @@
+body {
+    background-color: #232323;
+}
+
+#jumbotr {
+    text-align: center;
+}
+
+.jumbotron {
+    margin-bottom: 0;
+    padding: 30px;
+    background-color: steelblue;
+    color: black;
+}
+
+#message {
+    margin-right: 30px;
+    display: inline-block;
+    width: 10%;
+}
+
+.square {
+    width: 30%;
+    padding-bottom: 30%;
+    background-color: purple;
+    float: left;
+    margin: 1.66%;
+    border-radius: 100px;
+    transition: background 0.6s;
+    -webkit-transition: background 0.6s;
+    -moz-transition: background 0.6s;
+}
+
+#container {
+    max-width: 600px;
+    margin: 72px auto;
+}
+
+#thish1 {
+    font-size: 60px;
+    color: red;
+}
+
+#msgbar {
+    background-color: white;
+    width: 100%;
+    height: 30px;
+    margin-top: 0;
+    text-align: center;
+}
+
+span {
+    color: black;
+    font-weight: bold;
+}
+
+#easyBtn, #hardBtn {
+    border: 0;
+}
+
+.selected {
+    background-color: rgb(39, 39, 230);
+    color: white
+}
+
+button {
+    border: 0;
+    background: none;
+    height: 100%;
+    font-weight: 700;
+    color: steelblue;
+    transition: all 0.3s;
+    outline: none;
+}
+
+button:hover {
+    color: white;
+    background-color: steelblue;
+}
